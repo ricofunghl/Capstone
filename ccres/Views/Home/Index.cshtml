@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>CCRES</h1>
+ 
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <label for="members">Team Members</label>
+        <input type="text" id="members" name="members" list="suggestions" />
+        <div>
+            <datalist id="suggestions">
+                <!--[if lte IE 9]><select><![endif]-->
+                <option label="" value="Rob"></option>
+                <option label="" value="Rico"></option>
+                <option label="" value="Christina"></option>
+                <option label="" value="Kori"></option>
+                <option label="" value="Neal"></option>
+                <option label="" value="Helena"></option>
+                <option label="" value="Meera"></option>
+
+                <!--[if lte IE 9]></select><![endif]-->
+            </datalist>
+        </div>
+    </div>
+</div>
